@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="800" height="800" src="image/Black Camera Icon Photography Logo (1).png">
+  <img width="800" height="800" src="image/Black Camera Icon Photography Logo (500 x 150 piksel).png">
 </p>
 
 
