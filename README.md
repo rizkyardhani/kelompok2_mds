@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" height="143" src="http://bsdm.unas.ac.id/wp-content/uploads/2022/08/sinta_logo1.png">
+  <img width="400" height="143" src="image/Black Camera Icon Photography Logo (1).png">
 </p>
 
 <div align="center">
