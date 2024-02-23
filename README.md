@@ -39,3 +39,17 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 **Stathub** adalah portal info jurusan statistika perguruan tinggi negeri terlengkap di Indonesia. Seperti yang kita ketahui bersama, perguruan tinggi memiliki banyak jenis, mulai dari Universitas, Institut, Sekolah Tinggi. Banyaknya jenis perguruan tinggi ini memberikan banyak pilihan bagi siswa untuk melanjutkan pendidikan ke jenjang Sarjana(S1). Selain itu terdapat info jenjang bagi freshgraduate untuk melanjutkan ke jenjang Master(S2) dan Doktor(S3).
 
 **StatHub** hadir untuk membantu kamu untuk menemukan pilihan kampus yang terbaik. Tersedia 30 info jurusan statistika di beberapa perguruan tinggi yang tersebar di 34 provinsi dari seluruh Indonesia mulai dari Aceh hingga Papua. Kamu bisa lakukan dengan mudah dengan fitur lokasi kampus.
+
+
+
+## Skema Database
+
+## ERD
+
+## Deskripsi Data
+
+## Tim Pengembang
++ Database Manager : Windy Ayu Pratiwi (G1501231029)
++ Frontend Developer : Rizky Ardhani (G1501231074)
++ Backend Developer : Devi Permata Sari (G1501231026)
++ Technical Writer : Tukhfatur Rizmah A. (G1501231023)
