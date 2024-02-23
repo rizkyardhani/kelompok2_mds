@@ -35,6 +35,6 @@ Statistika adalah studi tentang pengumpulan, analisis, interpretasi, dan present
 Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terkenal, jurusan Statistika akan memberikan landasan yang kokoh bagi karier di bidang data, penelitian, keuangan, perencanaan bisnis, pengembangan produk, kebijakan publik, dan banyak lagi. Tertarik? Segera mendaftar dan bergabunglah di jurusan Statistika!
 
 
-# INFO
+## INFO
 **Stathub** adalah portal info jurusan statistika perguruan tinggi negeri terlengkap di Indonesia. Seperti yang kita ketahui bersama, perguruan tinggi memiliki banyak jenis, mulai dari Universitas, Institut, Sekolah Tinggi. Banyaknya jenis perguruan tinggi ini memberikan banyak pilihan bagi siswa untuk melanjutkan pendidikan ke jenjang Sarjana(S1). Selain itu terdapat info jenjang bagi freshgraduate untuk melanjutkan ke jenjang Master(S2) dan Doktor(S3).
 **StatHub** hadir untuk membantu kamu untuk menemukan pilihan kampus yang terbaik. Tersedia 30 info jurusan statistika di beberapa perguruan tinggi yang tersebar di 34 provinsi dari seluruh Indonesia mulai dari Aceh hingga Papua. Kamu bisa lakukan dengan mudah dengan fitur lokasi kampus.
