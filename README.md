@@ -49,7 +49,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 ## Deskripsi Data
 
 ## Tim Pengembang
-+ Database Manager : [Windy Ayu Pratiwi](github.com/windyayupratiwi) (G1501231029)
++ Database Manager : [Windy Ayu Pratiwi](https://github.com/windyayupratiwi) (G1501231029)
 + Frontend Developer : Rizky Ardhani (G1501231074)
 + Backend Developer : Devi Permata Sari (G1501231026)
 + Technical Writer : Tukhfatur Rizmah A. (G1501231023)
