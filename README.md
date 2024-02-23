@@ -2,7 +2,6 @@
   <img width="1000" height="300" src="image/Black Camera Icon Photography Logo (1000 x 300 piksel).png">
 </p>
 
-
 Ingin mempelajari ilmu yang sangat relevan di era data ini? Jurusan Statistika adalah pilihan tepat bagi kamu! Kamu akan belajar bagaimana mengumpulkan, mengorganisir, menganalisis, dan menafsirkan data. Bagi mereka yang tertarik dengan matematika, sains, dan pemecahan masalah, jurusan ini akan memberikan bekal yang sangat berharga.
 
 **Apa Itu Statistika?**
