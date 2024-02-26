@@ -46,9 +46,15 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 ## Skema Database
 
+
+
 ## ERD
 
+
+
 ## Deskripsi Data
+
+
 
 ## Tim Pengembang
 + Database Manager : [Windy Ayu Pratiwi](https://github.com/windyayupratiwi) (G1501231029)
