@@ -43,6 +43,10 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 **StatHub** hadir untuk membantu kamu untuk menemukan pilihan kampus yang terbaik. Tersedia 30 info jurusan statistika di beberapa perguruan tinggi yang tersebar di 34 provinsi dari seluruh Indonesia mulai dari Aceh hingga Papua. Kamu bisa lakukan dengan mudah dengan fitur lokasi kampus.
 
 
+## Dashboard Database
+<p align="center">
+  <img width="900" height="500" src="image/Dashboard_kel2.png">
+</p>
 
 ## Skema Database
 
