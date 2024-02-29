@@ -50,7 +50,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 ## Skema Database
 <p align="center">
-  <img width="850" height="500" src="image/skema_mds.png">
+  <img width="851" height="541" src="image/skema_mds.png">
 </p>
 
 ## ERD
