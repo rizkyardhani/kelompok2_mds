@@ -54,8 +54,9 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 </p>
 
 ## ERD
-
-
+<p align="center">
+  <img width="850" height="500" src="image/ERD.jpeg">
+</p>
 
 ## Deskripsi Data
 StatHub adalah sebuah portal database universitas-universitas negeri di Indonesia yang memiliki jurusan statistika. Dengan hal ini, data yang diambil yakni berdasarkan pddikti dan sumber web resmi masing-masing universitas. Data yang kami ambil meliputi Universitas, Wilayah Universitas, Data Prodi (Dosen, Mahasiswa), Jenjang Pendidikan yang ada di Universitas tersebut untuk jurusan Statistika.
