@@ -55,7 +55,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 ## ERD
 <p align="center">
-  <img width="300" height="1000" src="image/ERD.jpeg">
+  <img width="350" height="1000" src="image/ERD.jpeg">
 </p>
 
 ## Deskripsi Data
