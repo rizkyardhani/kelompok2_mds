@@ -45,7 +45,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 ## Dashboard Database
 <p align="center">
-  <img width="800" height="500" src="image/Dashboard_kel2.png">
+  <img width="2048" height="965" src="image/Dashboard_kel2.png">
 </p>
 
 ## Skema Database
