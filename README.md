@@ -80,7 +80,7 @@ Berikut merupakan tampilan awal dari Portal StatHub Database
 ## :octocat: Demo
 
 Berikut merupakan link untuk shinnyapps atau dashboard dari project kami:
-https://akmarinak98.shinyapps.io/database_publikasi_statistika/
+https://rizkyardhani.shinyapps.io/database_stathub/
 
 ## :film_strip: Skema Database
 
