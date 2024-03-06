@@ -20,7 +20,7 @@
 - [Dashboard Database](#desktop_computer-dashboard-database)
 - [Demo](#octocat-demo)
 - [Requirements](#exclamation-requirements)
-- [Skema Database](#film_strip-database)
+- [Skema Database](#film_strip-skema-database)
 - [ERD](#chart_with_downwards_trend-erd)
 - [Deskripsi Data](#postbox-deskripsi-data)
 - [Struktur Folder](#open_file_folder-struktur-folder)
