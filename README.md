@@ -30,7 +30,7 @@
 ## :notebook: Tentang
 <div align="justify">
 Ingin mempelajari ilmu yang sangat relevan di era data ini? Jurusan Statistika adalah pilihan tepat bagi kamu! Kamu akan belajar bagaimana mengumpulkan, mengorganisir, menganalisis, dan menafsirkan data. Bagi mereka yang tertarik dengan matematika, sains, dan pemecahan masalah, jurusan ini akan memberikan bekal yang sangat berharga.   
-
+    
 **Apa Itu Statistika?**
 
 Statistika adalah studi tentang pengumpulan, analisis, interpretasi, dan presentasi data. Di era di mana data adalah kunci untuk membuat keputusan bisnis, penelitian ilmiah, dan kebijakan publik, kemampuan untuk memahami dan mengelola data sangat penting. Statistik menawarkan alat dan teknik yang kuat untuk mengatasi kompleksitas dalam data, memberikan kemampuan untuk mengambil keputusan yang berbasis bukti dan mendukungnya dengan argumen yang kuat.
