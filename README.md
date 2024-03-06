@@ -48,6 +48,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
   <img width="675" height="318" src="image/Dashboard_kel2.png">
 </p>
 
+
 ## Skema Database
 <p align="center">
   <img width="851" height="541" src="image/skema_mds.png">
@@ -60,6 +61,127 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 ## Deskripsi Data
 StatHub adalah sebuah portal database universitas-universitas negeri di Indonesia yang memiliki jurusan statistika. Dengan hal ini, data yang diambil yakni berdasarkan pddikti dan sumber web resmi masing-masing universitas. Data yang kami ambil meliputi Universitas, Wilayah Universitas, Data Prodi (Dosen, Mahasiswa), Jenjang Pendidikan yang ada di Universitas tersebut untuk jurusan Statistika.
+
+Berisi tentang tabel-tabel yang digunakan berikut dengan sintaks SQL DDL (CREATE).
+
+### Create Database
+Database STATHub menyimpan informasi yang mewakili atribut data yang saling berhubungan untuk kemudian dianalisis.
+```sql
+CREATE DATABASE portal_StatHub 
+    WITH
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+```
+### Create Table Wilayah
+Table wilayah memberikan informasi kepada user mengenai posisi wilayah universitas, sehingga user dapat mengetahui id wilayah, nama kab/kota, nama provinsi universitas tersebut berada. Berikut deskripsi untuk setiap tabel instansi.
+| Attribute         | Type                  | Description                    |
+|:------------------|:----------------------|:-------------------------------|
+| id_wilayah        | character varying(10) | Id Wilayah                     |
+| nama_kabkota      | character varying(50) | Nama Kab/Kota                  |
+| nama_prov         | character varying(50) | Nama Provinsi                  |
+
+dengan script SQL sebagai berikut:
+```sql
+CREATE TABLE IF NOT EXISTS wilayah (
+    id_wilayah CHAR(10) PRIMARY KEY,
+    nama_kabkota VARCHAR(50) NOT NULL,
+    nama_prov VARCHAR(50) NOT NULL
+);
+
+select * from wilayah
+```
+### Create Table Universitas
+Table Universitas memberikan informasi yang memudahkan user mengetahui Universitas yang memiliki Jurusan Statistika di dalamnya melalui id Universitas, id wilayah, nama universitas, dan akreditasi universitas terkait. Berikut deskripsi untuk setiap tabel Universitas.
+| Attribute          | Type                  | Description                     |
+|:-------------------|:----------------------|:--------------------------------|
+| id_univ            | integer               | Id Universitas                  |
+| id_wilayah         | character varying(10) | Id Wilayah                      |
+| nama_univ          | character varying(50) | Nama Universitas                |
+| akred_univ         | character varying(10) | Akreditasi Universitas          |
+
+dengan script SQL sebagai berikut:
+```sql
+CREATE TABLE IF NOT EXISTS universitas (
+    id_univ int PRIMARY KEY,
+    id_wilayah CHAR(10) NOT NULL,
+    nama_univ VARCHAR(50) NOT NULL,
+	akred_univ VARCHAR(10) NOT NULL,
+    FOREIGN KEY (id_wilayah) REFERENCES wilayah(id_wilayah)
+);
+select * from universitas
+```
+### Create Table Prodi
+Table prodi memberikan informasi kepada user mengenai beberapa informasi mengenai program studi di universitas tersebut. User dapat mengetahui id prodi dari universitas, id univ, nama program studi,jumlah dosen, jumlah mahasiswa, akreditasi program studi tersebut dan jenjang. Berikut deskripsi untuk setiap tabel penulis.
+
+| Attribute                  | Type                  | Description                     		       |
+|:---------------------------|:----------------------|:------------------------------------------|
+| id_prodi                   | integer		           | id prodi                       		       |
+| id_univ                    | integer		           | id universitas                   	       |
+| nama_prodi                 | character varying(50) | nama program studi                     	 |	
+| jumlah_dosen               | integer		           | jumlah dosen                 		         |
+| jumlah_mahasiswa           | integer	             | jumlah mahasiswa                 	       |
+| akred_prodi    	           | character varying(30) | akreditasi prodi                          |
+| jenjang		                 | character varying(10) | jenjang pendidikam                        |
+
+dengan script SQL sebagai berikut:
+sql
+CREATE TABLE IF NOT EXISTS prodi (
+    id_prodi int PRIMARY KEY,
+    id_univ int NOT NULL,
+    nama_prodi VARCHAR(50) NOT NULL,
+    jumlah_dosen int NOT NULL,
+    jumlah_mahasiswa int NOT NULL,
+    akred_prodi VARCHAR(30) NOT NULL,
+    jenjang VARCHAR(10) NOT NULL,
+    FOREIGN KEY (id_univ) REFERENCES universitas (id_univ)
+);
+
+### Create Table Jalur
+Table Jalur menyajikan informasi lengkap mengenai jalur masuk calon mahasiswa yang akan mendaftar ke universitas yang diinginkan. Selain dapat mengetahui jalur, user juga akan mendapatkan informasi daya tampung dan website tempat mendaftar universitas. Informasi spesifik mengenai id prodi, id universitas, jalur masuk, daya tampung, dan website dapat diketahui melalui table ini.  Berikut deskripsi untuk setiap tabel Jalur.
+| Attribute                  | Type                  | Description                     		       |
+|:---------------------------|:----------------------|:------------------------------------------|
+| id_prodi                   | character varying(10) | Id Prodi                       		       |
+| id_univ                    | character varying(10) | Id Universitas                  		       |
+| jalur_masuk                | character varying(10) | Jalur Masuk                    		       |	
+| daya_tampung               | character varying(10) | Daya Tampung                      	       |
+| website                    | character varying(200)| Website                                   |
+
+dengan script SQL sebagai berikut:              
+```sql
+CREATE TABLE IF NOT EXISTS jalur (
+    id_prodi int NULL,
+    id_univ int NOT NULL,
+    jalur_masuk VARCHAR(100) NOT NULL,
+	daya_tampung int NOT NULL,
+    website VARCHAR(1000) NOT NULL,
+	FOREIGN KEY (id_prodi) REFERENCES prodi (id_prodi),
+	FOREIGN KEY (id_univ) REFERENCES universitas (id_univ),
+);
+```
+
+## :open_file_folder: Struktur Folder
+
+```
+.
+├── app           # ShinyApps
+│   ├── css
+│   │   ├── **/*.css
+│   ├── server.R
+│   └── ui.R
+├── data 
+│   ├── csv
+│   │   ├── **/*.css
+│   └── sql
+|       └── db.sql
+├── src           # Project source code
+├── doc           # Doc for the project
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
 
 ## Tim Pengembang
 + Database Manager : [Windy Ayu Pratiwi](https://github.com/windyayupratiwi) (G1501231029)
