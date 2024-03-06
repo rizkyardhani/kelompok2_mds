@@ -8,7 +8,7 @@
 
 [Tentang](#notebook-tentang)
 •
-[Dashboard](#desktop_computer-dashboard)
+[Dashboard](#desktop_computer-dashboard-database)
 •
 [Demo](#dvd-demo)
 
