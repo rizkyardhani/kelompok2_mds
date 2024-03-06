@@ -79,7 +79,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 Berikut merupakan link untuk shinnyapps atau dashboard dari project kami:
 https://akmarinak98.shinyapps.io/database_publikasi_statistika/
 
-## 🎞️ Skema Database
+## :film_strip: Skema Database
 <p align="center">
   <img width="851" height="541" src="image/skema2.png">
 </p>
@@ -89,12 +89,12 @@ https://akmarinak98.shinyapps.io/database_publikasi_statistika/
 - RDBMS yang digunakan adalah PostgreSQL dan ElephantSQL
 - Dashboard menggunakan `shinny`, `shinnythemes`, `bs4Dash`, `DT`, dan `dplyr` dari package R
 
-## 📉ERD
+## :chart_with_downwards_trend: ERD
 <p align="center">
   <img width="350" height="1000" src="image/ERD.jpeg">
 </p>
 
-## 📮Deskripsi Data
+## :postbox: Deskripsi Data
 StatHub adalah sebuah portal database universitas-universitas negeri di Indonesia yang memiliki jurusan statistika. Dengan hal ini, data yang diambil yakni berdasarkan pddikti dan sumber web resmi masing-masing universitas. Data yang kami ambil meliputi Universitas, Wilayah Universitas, Data Prodi (Dosen, Mahasiswa), Jenjang Pendidikan yang ada di Universitas tersebut untuk jurusan Statistika.
 
 Berisi tentang tabel-tabel yang digunakan berikut dengan sintaks SQL DDL (CREATE).
@@ -218,7 +218,7 @@ CREATE TABLE IF NOT EXISTS jalur (
 ```
 
 
-## 🥷 Tim Pengembang 🥷
+## :ninja: Tim Pengembang
 + 💃Database Manager : [Windy Ayu Pratiwi](https://github.com/windyayupratiwi) (G1501231029)
 + 🧜‍♂️Frontend Developer : [Rizky Ardhani](https://github.com/rizkyardhani) (G1501231074)
 + 👩‍🍳Backend Developer : [Devi Permata Sari](https://github.com/dvprmta) (G1501231026)
