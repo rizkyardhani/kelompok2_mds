@@ -24,7 +24,7 @@
 - [ERD](#chart_with_downwards_trend-erd)
 - [Deskripsi Data](#postbox-deskripsi-data)
 - [Struktur Folder](#open_file_folder-struktur-folder)
-- [Tim Pengembang](#ninja-tim-pengembang-ninja)
+- [Tim Pengembang](#ninja-tim-pengembang)
 
 
 ## 📓 Tentang
