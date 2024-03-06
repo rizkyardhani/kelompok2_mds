@@ -17,7 +17,7 @@
 ## :bookmark_tabs: Menu
 
 - [Tentang](#notebook-tentang)
-- [Dashboard](#desktop_computer-dashboard)
+- [Dashboard](#desktop_computer-dashboard-database)
 - [Demo](#octocat-demo)
 - [Requirements](#exclamation-requirements)
 - [Skema Database](#film_strip-database)
@@ -27,7 +27,7 @@
 - [Tim Pengembang](#ninja-tim-pengembang-ninja)
 
 
-## 📓: Tentang
+## 📓 Tentang
 <div align="justify">
 Ingin mempelajari ilmu yang sangat relevan di era data ini? Jurusan Statistika adalah pilihan tepat bagi kamu! Kamu akan belajar bagaimana mengumpulkan, mengorganisir, menganalisis, dan menafsirkan data. Bagi mereka yang tertarik dengan matematika, sains, dan pemecahan masalah, jurusan ini akan memberikan bekal yang sangat berharga.
 
