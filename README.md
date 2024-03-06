@@ -8,7 +8,7 @@
 
 [Tentang](#notebook-tentang)
 •
-[Dashboard](#desktop_computer-dashboard-database)
+[Dashboard Database](#desktop_computer-dashboard-database)
 •
 [Demo](#octocat-demo)
 
@@ -17,7 +17,7 @@
 ## :bookmark_tabs: Menu
 
 - [Tentang](#notebook-tentang)
-- [Dashboard](#desktop_computer-dashboard-database)
+- [Dashboard Database](#desktop_computer-dashboard-database)
 - [Demo](#octocat-demo)
 - [Requirements](#exclamation-requirements)
 - [Skema Database](#film_strip-database)
