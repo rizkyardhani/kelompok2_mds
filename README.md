@@ -63,13 +63,15 @@ Statistika adalah studi tentang pengumpulan, analisis, interpretasi, dan present
 Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terkenal, jurusan Statistika akan memberikan landasan yang kokoh bagi karier di bidang data, penelitian, keuangan, perencanaan bisnis, pengembangan produk, kebijakan publik, dan banyak lagi. Tertarik? Segera mendaftar dan bergabunglah di jurusan Statistika!
 
 
-### INFO
+### 📑INFO
 **Stathub** adalah portal info jurusan statistika perguruan tinggi negeri terlengkap di Indonesia. Seperti yang kita ketahui bersama, perguruan tinggi memiliki banyak jenis, mulai dari Universitas, Institut, Sekolah Tinggi. Banyaknya jenis perguruan tinggi ini memberikan banyak pilihan bagi siswa untuk melanjutkan pendidikan ke jenjang Sarjana(S1). Selain itu terdapat info jenjang bagi freshgraduate untuk melanjutkan ke jenjang Master(S2) dan Doktor(S3).
 
 **StatHub** hadir untuk membantu kamu untuk menemukan pilihan kampus yang terbaik. Tersedia 30 info jurusan statistika di beberapa perguruan tinggi yang tersebar di 34 provinsi dari seluruh Indonesia mulai dari Aceh hingga Papua. Kamu bisa lakukan dengan mudah dengan fitur lokasi kampus.
 
 
 ## :desktop_computer: Dashboard Database
+
+Berikut merupakan tampilan awal dari Portal StatHub Database
 <p align="center">
   <img width="675" height="318" src="image/Dashboard_kel2.png">
 </p>
@@ -80,6 +82,11 @@ Berikut merupakan link untuk shinnyapps atau dashboard dari project kami:
 https://akmarinak98.shinyapps.io/database_publikasi_statistika/
 
 ## :film_strip: Skema Database
+
+Menggambarkan struktur primary key Wilayah, Universitas, Program Studi dan jalur dengan masing-masing foreign key dalam membangun relasi antara tabel atau entitas.
+
+Berikut merupakan Skema Database dari Portal StatHub Database
+
 <p align="center">
   <img width="851" height="541" src="image/skema2.png">
 </p>
@@ -90,6 +97,13 @@ https://akmarinak98.shinyapps.io/database_publikasi_statistika/
 - Dashboard menggunakan `shinny`, `shinnythemes`, `bs4Dash`, `DT`, dan `dplyr` dari package R
 
 ## :chart_with_downwards_trend: ERD
+
+ERD (Entity Relationship Diagram) menampilkan hubungan antara entitas dengan atribut. Pada project ini, entitas wilayah terdapat atribut yang berhubungan dengan atribut universitas yaitu id_univ.
+
+Selanjutnya, entitas universitas berhubungan dengan dua atribut pada entitas lain yaitu id_prodi berhubungan dengan entitas prodi, dan jalur.
+
+Selain itu, entitas prodi saling berhubungan dengan jalur.
+
 <p align="center">
   <img width="350" height="1000" src="image/ERD.jpeg">
 </p>
