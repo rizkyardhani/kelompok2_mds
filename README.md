@@ -6,9 +6,9 @@
 
 # Database Portal StatHub Database
 
-[Tentang](#notebook-ttg)
+[Tentang](#notebook-tentang)
 •
-[Dashboard](#desktop_computer-db)
+[Dashboard](#desktop_computer-dashboard)
 •
 [Demo](#dvd-demo)
 
@@ -16,8 +16,8 @@
 
 ## :bookmark_tabs: Menu
 
-- [Tentang](#notebook-ttg)
-- [Dashboard](#desktop_computer-db)
+- [Tentang](#notebook-tentang)
+- [Dashboard](#desktop_computer-dashboard)
 - [Demo](#octocat-demo)
 - [Requirements](#exclamation-requirements)
 - [Skema Database](#film_strip-database)
