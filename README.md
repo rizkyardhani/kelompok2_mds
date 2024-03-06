@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1000" height="300" src="image/Black Camera Icon Photography Logo (1000 x 300 piksel).png">
+  <img width="1000" height="300" src="image/logoow.png">
 </p>
 
 <div align="justify">
