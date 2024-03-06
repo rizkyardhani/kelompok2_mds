@@ -2,6 +2,32 @@
   <img width="1000" height="300" src="image/logoow.png">
 </p>
 
+<div align="center">
+
+# Database Portal StatHub Database
+
+[Tentang](#notebook-ttg)
+•
+[Dashboard](#desktop_computer-db)
+•
+[Demo](#dvd-demo)
+
+</div>
+
+## :bookmark_tabs: Menu
+
+- [Tentang](#notebook-ttg)
+- [Dashboard](#desktop_computer-db)
+- [Demo](#octocat-demo)
+- [Requirements](#exclamation-requirements)
+- [Skema Database](#film_strip-database)
+- [ERD](#chart_with_downwards_trend-erd)
+- [Deskripsi Data](#postbox-deskripsi-data)
+- [Struktur Folder](#open_file_folder-struktur-folder)
+- [Tim Pengembang](#ninja-tim-pengembang-ninja)
+
+
+## 📓: Tentang
 <div align="justify">
 Ingin mempelajari ilmu yang sangat relevan di era data ini? Jurusan Statistika adalah pilihan tepat bagi kamu! Kamu akan belajar bagaimana mengumpulkan, mengorganisir, menganalisis, dan menafsirkan data. Bagi mereka yang tertarik dengan matematika, sains, dan pemecahan masalah, jurusan ini akan memberikan bekal yang sangat berharga.
 
@@ -43,23 +69,32 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 **StatHub** hadir untuk membantu kamu untuk menemukan pilihan kampus yang terbaik. Tersedia 30 info jurusan statistika di beberapa perguruan tinggi yang tersebar di 34 provinsi dari seluruh Indonesia mulai dari Aceh hingga Papua. Kamu bisa lakukan dengan mudah dengan fitur lokasi kampus.
 
 
-## Dashboard Database
+## 🖥️: Dashboard Database
 <p align="center">
   <img width="675" height="318" src="image/Dashboard_kel2.png">
 </p>
 
+## :octocat: Demo
 
-## Skema Database
+Berikut merupakan link untuk shinnyapps atau dashboard dari project kami:
+https://akmarinak98.shinyapps.io/database_publikasi_statistika/
+
+## 🎞️ Skema Database
 <p align="center">
   <img width="851" height="541" src="image/skema2.png">
 </p>
 
-## ERD
+## :exclamation: Requirements
+
+- RDBMS yang digunakan adalah PostgreSQL dan ElephantSQL
+- Dashboard menggunakan `shinny`, `shinnythemes`, `bs4Dash`, `DT`, dan `dplyr` dari package R
+
+## 📉ERD
 <p align="center">
   <img width="350" height="1000" src="image/ERD.jpeg">
 </p>
 
-## Deskripsi Data
+## 📮Deskripsi Data
 StatHub adalah sebuah portal database universitas-universitas negeri di Indonesia yang memiliki jurusan statistika. Dengan hal ini, data yang diambil yakni berdasarkan pddikti dan sumber web resmi masing-masing universitas. Data yang kami ambil meliputi Universitas, Wilayah Universitas, Data Prodi (Dosen, Mahasiswa), Jenjang Pendidikan yang ada di Universitas tersebut untuk jurusan Statistika.
 
 Berisi tentang tabel-tabel yang digunakan berikut dengan sintaks SQL DDL (CREATE).
@@ -183,8 +218,8 @@ CREATE TABLE IF NOT EXISTS jalur (
 ```
 
 
-## Tim Pengembang
-+ Database Manager : [Windy Ayu Pratiwi](https://github.com/windyayupratiwi) (G1501231029)
-+ Frontend Developer : [Rizky Ardhani](https://github.com/rizkyardhani) (G1501231074)
-+ Backend Developer : [Devi Permata Sari](https://github.com/dvprmta) (G1501231026)
-+ Technical Writer : [Tukhfatur Rizmah A.](https://github.com/tukhfaturr) (G1501231023)
+## 🥷 Tim Pengembang 🥷
++ 💃Database Manager : [Windy Ayu Pratiwi](https://github.com/windyayupratiwi) (G1501231029)
++ 🧜‍♂️Frontend Developer : [Rizky Ardhani](https://github.com/rizkyardhani) (G1501231074)
++ 👩‍🍳Backend Developer : [Devi Permata Sari](https://github.com/dvprmta) (G1501231026)
++ 🏄‍♀️Technical Writer : [Tukhfatur Rizmah A.](https://github.com/tukhfaturr) (G1501231023)
