@@ -115,15 +115,15 @@ select * from universitas
 ### Create Table Prodi
 Table prodi memberikan informasi kepada user mengenai beberapa informasi mengenai program studi di universitas tersebut. User dapat mengetahui id prodi dari universitas, id univ, nama program studi,jumlah dosen, jumlah mahasiswa, akreditasi program studi tersebut dan jenjang. Berikut deskripsi untuk setiap tabel penulis.
 
-| Attribute                  | Type                  | Description                     		       |
+| Attribute                  | Type                  | Description                     		 |
 |:---------------------------|:----------------------|:------------------------------------------|
-| id_prodi                   | integer		           | id prodi                       		       |
-| id_univ                    | integer		           | id universitas                   	       |
+| id_prodi                   | integer		     | id prodi                       		 |
+| id_univ                    | integer		     | id universitas                   	 |
 | nama_prodi                 | character varying(50) | nama program studi                     	 |	
-| jumlah_dosen               | integer		           | jumlah dosen                 		         |
-| jumlah_mahasiswa           | integer	             | jumlah mahasiswa                 	       |
-| akred_prodi    	           | character varying(30) | akreditasi prodi                          |
-| jenjang		                 | character varying(10) | jenjang pendidikam                        |
+| jumlah_dosen               | integer		     | jumlah dosen                 	         |
+| jumlah_mahasiswa           | integer	             | jumlah mahasiswa                 	 |
+| akred_prodi    	     | character varying(30) | akreditasi prodi                          |
+| jenjang		     | character varying(10) | jenjang pendidikan                        |
 
 dengan script SQL sebagai berikut:
 sql
