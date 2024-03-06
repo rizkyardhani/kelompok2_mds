@@ -107,7 +107,7 @@ CREATE TABLE IF NOT EXISTS universitas (
     id_univ int PRIMARY KEY,
     id_wilayah CHAR(10) NOT NULL,
     nama_univ VARCHAR(50) NOT NULL,
-	akred_univ VARCHAR(10) NOT NULL,
+    akred_univ VARCHAR(10) NOT NULL,
     FOREIGN KEY (id_wilayah) REFERENCES wilayah(id_wilayah)
 );
 select * from universitas
@@ -140,13 +140,13 @@ CREATE TABLE IF NOT EXISTS prodi (
 
 ### Create Table Jalur
 Table Jalur menyajikan informasi lengkap mengenai jalur masuk calon mahasiswa yang akan mendaftar ke universitas yang diinginkan. Selain dapat mengetahui jalur, user juga akan mendapatkan informasi daya tampung dan website tempat mendaftar universitas. Informasi spesifik mengenai id prodi, id universitas, jalur masuk, daya tampung, dan website dapat diketahui melalui table ini.  Berikut deskripsi untuk setiap tabel Jalur.
-| Attribute                  | Type                  | Description                     		       |
-|:---------------------------|:----------------------|:------------------------------------------|
-| id_prodi                   | character varying(10) | Id Prodi                       		       |
-| id_univ                    | character varying(10) | Id Universitas                  		       |
-| jalur_masuk                | character varying(10) | Jalur Masuk                    		       |	
-| daya_tampung               | character varying(10) | Daya Tampung                      	       |
-| website                    | character varying(200)| Website                                   |
+| Attribute                  | Type                   | Description                     	  |
+|:---------------------------|:-----------------------|:------------------------------------------|
+| id_prodi                   | integer                | Id Prodi                       		  |
+| id_univ                    | integer                | Id Universitas                            |
+| jalur_masuk                | character varying(100) | Jalur Masuk                    		  |	
+| daya_tampung               | integer                | Daya Tampung                      	  |
+| website                    | character varying(1000)| Website                                   |
 
 dengan script SQL sebagai berikut:              
 ```sql
@@ -154,7 +154,7 @@ CREATE TABLE IF NOT EXISTS jalur (
     id_prodi int NULL,
     id_univ int NOT NULL,
     jalur_masuk VARCHAR(100) NOT NULL,
-	daya_tampung int NOT NULL,
+    daya_tampung int NOT NULL,
     website VARCHAR(1000) NOT NULL,
 	FOREIGN KEY (id_prodi) REFERENCES prodi (id_prodi),
 	FOREIGN KEY (id_univ) REFERENCES universitas (id_univ),
