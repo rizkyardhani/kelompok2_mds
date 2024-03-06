@@ -27,7 +27,7 @@
 - [Tim Pengembang](#ninja-tim-pengembang)
 
 
-## 📓 Tentang
+## :notebook: Tentang
 <div align="justify">
 Ingin mempelajari ilmu yang sangat relevan di era data ini? Jurusan Statistika adalah pilihan tepat bagi kamu! Kamu akan belajar bagaimana mengumpulkan, mengorganisir, menganalisis, dan menafsirkan data. Bagi mereka yang tertarik dengan matematika, sains, dan pemecahan masalah, jurusan ini akan memberikan bekal yang sangat berharga.
 
@@ -69,7 +69,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 **StatHub** hadir untuk membantu kamu untuk menemukan pilihan kampus yang terbaik. Tersedia 30 info jurusan statistika di beberapa perguruan tinggi yang tersebar di 34 provinsi dari seluruh Indonesia mulai dari Aceh hingga Papua. Kamu bisa lakukan dengan mudah dengan fitur lokasi kampus.
 
 
-## 🖥️ Dashboard Database
+## :desktop_computer: Dashboard Database
 <p align="center">
   <img width="675" height="318" src="image/Dashboard_kel2.png">
 </p>
