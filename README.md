@@ -10,7 +10,7 @@
 •
 [Dashboard](#desktop_computer-dashboard-database)
 •
-[Demo](#dvd-demo)
+[Demo](#octocat-demo)
 
 </div>
 
