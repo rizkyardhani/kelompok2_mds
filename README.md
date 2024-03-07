@@ -74,13 +74,13 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 Berikut merupakan tampilan awal dari Portal StatHub Database
 <p align="center">
-  <img width="675" height="318" src="image/Dashboard_kel2.png">
+  <img width="675" height="318" src="image/Dashboard.png">
 </p>
 
 ## :octocat: Demo
 
 Berikut merupakan link untuk shinnyapps atau dashboard dari project kami:
-https://rizkyardhani.shinyapps.io/database_stathub/
+https://rizkyardhani01.shinyapps.io/StatHub_Kel2MDS/
 
 ## :film_strip: Skema Database
 
