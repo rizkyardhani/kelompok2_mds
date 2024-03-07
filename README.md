@@ -223,15 +223,18 @@ CREATE TABLE IF NOT EXISTS jalur (
 │   ├── Prodi.csv
 │   ├── jalur_masuk.csv
 │   ├──	universitas_StatHub.csv
-|   ├──	wilayah_StatHub.csv
+|   └──wilayah_StatHub.csv
+│
 ├── image
 │   ├── ERD.jpeg
 │   ├── dashboard.png
 │   ├──	logo StatHub.png
-|   ├──	skema2.png        
+|   └──	skema2.png
+│   
 ├── src		# Project source code
 │   ├──	conn_elephantsql.R
-|   ├──	input data SQL StatHub.R 
+|   └──	input data SQL StatHub.R
+| 
 └── README.md
 ```
 
