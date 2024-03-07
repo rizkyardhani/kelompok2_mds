@@ -74,7 +74,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 Berikut merupakan tampilan awal dari Portal StatHub Database
 <p align="center">
-  <img width="675" height="318" src="image/dashboard.png">
+  <img width="900" height="500" src="image/dashboard.png">
 </p>
 
 ## :octocat: Demo
@@ -216,19 +216,22 @@ CREATE TABLE IF NOT EXISTS jalur (
 ```
 .
 ├── app           # ShinyApps
-│   ├── css
-│   │   ├── **/*.css
 │   ├── server.R
 │   └── ui.R
+│
 ├── data 
-│   ├── csv
-│   │   ├── **/*.css
-│   └── sql
-|       └── db.sql
-├── src           # Project source code
-├── doc           # Doc for the project
-├── .gitignore
-├── LICENSE
+│   ├── Prodi.csv
+│   ├── jalur_masuk.csv
+│   ├──	universitas_StatHub.csv
+|   ├──	wilayah_StatHub.csv
+├── image
+│   ├── ERD.jpeg
+│   ├── dashboard.png
+│   ├──	logo StatHub.png
+|   ├──	skema2.png        
+├── src		# Project source code
+│   ├──	conn_elephantsql.R
+|   ├──	input data SQL StatHub.R 
 └── README.md
 ```
 
