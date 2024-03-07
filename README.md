@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# Database Portal StatHub Database
+#  StatHub Database : Portal Jurusan Statistika di Indonesia
 
 [Tentang](#notebook-tentang)
 •
