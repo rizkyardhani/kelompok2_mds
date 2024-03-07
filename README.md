@@ -235,6 +235,6 @@ CREATE TABLE IF NOT EXISTS jalur (
 
 ## :ninja: Tim Pengembang
 + 💃Database Manager : [Windy Ayu Pratiwi](https://github.com/windyayupratiwi) (G1501231029)
-+ 🧜‍♂️Frontend Developer : [Rizky Ardhani](https://github.com/rizkyardhani) (G1501231074)
++ 🧜‍♂️Frontend dan Backend Developer : [Rizky Ardhani](https://github.com/rizkyardhani) (G1501231074)
 + 👩‍🍳Backend Developer : [Devi Permata Sari](https://github.com/dvprmta) (G1501231026)
 + 🏄‍♀️Technical Writer : [Tukhfatur Rizmah A.](https://github.com/tukhfaturr) (G1501231023)
