@@ -223,7 +223,7 @@ CREATE TABLE IF NOT EXISTS jalur (
 │   ├── Prodi.csv
 │   ├── jalur_masuk.csv
 │   ├──	universitas_StatHub.csv
-|   └──wilayah_StatHub.csv
+|   └── wilayah_StatHub.csv
 │
 ├── image
 │   ├── ERD.jpeg
