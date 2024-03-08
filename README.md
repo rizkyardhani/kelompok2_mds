@@ -74,7 +74,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 Berikut merupakan tampilan awal dari Portal StatHub Database
 <p align="center">
-  <img width="900" height="500" src="image/dashboard.png">
+  <img width="900" height="500" src="image/dashboard1.png">
 </p>
 
 ## :octocat: Demo
