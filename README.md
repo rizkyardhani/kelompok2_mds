@@ -89,7 +89,7 @@ Menggambarkan struktur primary key Wilayah, Universitas, Program Studi dan jalur
 Berikut merupakan Skema Database dari Portal StatHub Database
 
 <p align="center">
-  <img width="851" height="541" src="image/skema2.png">
+  <img width="851" height="541" src="image/skema_MDS.jpg">
 </p>
 
 ## :exclamation: Requirements
