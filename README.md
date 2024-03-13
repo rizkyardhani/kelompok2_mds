@@ -176,7 +176,7 @@ Table prodi memberikan informasi kepada user mengenai beberapa informasi mengena
 | jenjang		     | character varying(10) | Jenjang pendidikan                        |
 
 dengan script SQL sebagai berikut:
-sql
+```sql
 CREATE TABLE IF NOT EXISTS prodi (
     id_prodi int PRIMARY KEY,
     id_univ int NOT NULL,
@@ -188,7 +188,6 @@ CREATE TABLE IF NOT EXISTS prodi (
     FOREIGN KEY (id_univ) REFERENCES universitas (id_univ)
 );
 ```
-
 
 Penilaian Peringkat Akreditasi Program Studi berdasarkan:
 
