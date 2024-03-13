@@ -187,10 +187,15 @@ CREATE TABLE IF NOT EXISTS prodi (
     jenjang VARCHAR(10) NOT NULL,
     FOREIGN KEY (id_univ) REFERENCES universitas (id_univ)
 );
+```
+
 
 Penilaian Peringkat Akreditasi Program Studi berdasarkan:
+
 a. Unggul;
+
 Predikat Unggul diberikan BAN-PT kepada perguruan tinggi yang mendapat nilai akreditasi A dan memenuhi syarat masuk predikat Unggul atau strata tertinggi dalam akreditasi.
+
 b. Baik Sekali;
 Predikat Baik Sekali diberikan oleh BAN-PT kepada perguruan tinggi yang mendapat nilai akreditasi A namun belum memenuhi seluruh syarat predikat Unggul.
 c. Baik;
