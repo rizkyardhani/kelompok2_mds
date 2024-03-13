@@ -196,14 +196,23 @@ a. Unggul;
 Predikat Unggul diberikan BAN-PT kepada perguruan tinggi yang mendapat nilai akreditasi A dan memenuhi syarat masuk predikat Unggul atau strata tertinggi dalam akreditasi.
 
 b. Baik Sekali;
+
 Predikat Baik Sekali diberikan oleh BAN-PT kepada perguruan tinggi yang mendapat nilai akreditasi A namun belum memenuhi seluruh syarat predikat Unggul.
+
 c. Baik;
+
 Predikat Baik diberikan kepadapa perguruan tinggi yang mencapai nilai akreditasi B dengan nilai akreditasi di atas 200 poin.
+
 d. A;
+
 Akreditasi A menunjukkan nilai akreditasi antara 361-400 poin.
+
 e. B; dan
+
 Akreditasi B menunjukkan nilai akreditasi antara 301-360 poin.
+
 f. C;
+
 Akreditasi C dengan nilai akreditasi antara 200-300 poin.
 
 
