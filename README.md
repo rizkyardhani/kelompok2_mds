@@ -110,7 +110,7 @@ Selain itu, entitas prodi saling berhubungan dengan jalur.
 </p>
 
 ## :postbox: Deskripsi Data
-StatHub adalah sebuah portal database universitas-universitas negeri di Indonesia yang memiliki jurusan statistika. Dengan hal ini, data yang diambil yakni berdasarkan pddikti dan sumber web resmi masing-masing universitas. Data yang kami ambil meliputi Universitas, Wilayah Universitas, Data Prodi (Dosen, Mahasiswa), Jenjang Pendidikan yang ada di Universitas tersebut untuk jurusan Statistika.
+StatHub adalah sebuah portal database universitas-universitas negeri di Indonesia yang memiliki jurusan statistika. Dengan hal ini, data yang diambil yakni berdasarkan pddikti dan sumber web resmi masing-masing universitas. Data yang kami ambil meliputi Universitas, Wilayah Universitas, Data Prodi (Dosen, Mahasiswa), Jalur Masuk yang ada di Universitas tersebut untuk jurusan Statistika.
 
 Berisi tentang tabel-tabel yang digunakan berikut dengan sintaks SQL DDL (CREATE).
 
@@ -187,6 +187,21 @@ CREATE TABLE IF NOT EXISTS prodi (
     jenjang VARCHAR(10) NOT NULL,
     FOREIGN KEY (id_univ) REFERENCES universitas (id_univ)
 );
+
+Penilaian Peringkat Akreditasi Program Studi berdasarkan:
+a. Unggul;
+Predikat Unggul diberikan BAN-PT kepada perguruan tinggi yang mendapat nilai akreditasi A dan memenuhi syarat masuk predikat Unggul atau strata tertinggi dalam akreditasi.
+b. Baik Sekali;
+Predikat Baik Sekali diberikan oleh BAN-PT kepada perguruan tinggi yang mendapat nilai akreditasi A namun belum memenuhi seluruh syarat predikat Unggul.
+c. Baik;
+Predikat Baik diberikan kepadapa perguruan tinggi yang mencapai nilai akreditasi B dengan nilai akreditasi di atas 200 poin.
+d. A;
+Akreditasi A menunjukkan nilai akreditasi antara 361-400 poin.
+e. B; dan
+Akreditasi B menunjukkan nilai akreditasi antara 301-360 poin.
+f. C;
+Akreditasi C dengan nilai akreditasi antara 200-300 poin.
+
 
 ### Create Table Jalur
 Table Jalur menyajikan informasi lengkap mengenai jalur masuk calon mahasiswa yang akan mendaftar ke universitas yang diinginkan. Selain dapat mengetahui jalur, user juga akan mendapatkan informasi daya tampung dan website tempat mendaftar universitas. Informasi spesifik mengenai id prodi, id universitas, jalur masuk, daya tampung, dan website dapat diketahui melalui table ini.  Berikut deskripsi untuk setiap tabel Jalur.
