@@ -167,13 +167,13 @@ Table prodi memberikan informasi kepada user mengenai beberapa informasi mengena
 
 | Attribute                  | Type                  | Description                     		 |
 |:---------------------------|:----------------------|:------------------------------------------|
-| id_prodi                   | integer		     | id prodi                       		 |
-| id_univ                    | integer		     | id universitas                   	 |
-| nama_prodi                 | character varying(50) | nama program studi                     	 |	
-| jumlah_dosen               | integer		     | jumlah dosen                 	         |
-| jumlah_mahasiswa           | integer	             | jumlah mahasiswa                 	 |
-| akred_prodi    	     | character varying(30) | akreditasi prodi                          |
-| jenjang		     | character varying(10) | jenjang pendidikan                        |
+| id_prodi                   | integer		     | Id prodi                       		 |
+| id_univ                    | integer		     | Id universitas                   	 |
+| nama_prodi                 | character varying(50) | Nama program studi                     	 |	
+| jumlah_dosen               | integer		     | Jumlah dosen                 	         |
+| jumlah_mahasiswa           | integer	             | Jumlah mahasiswa                 	 |
+| akred_prodi    	     | character varying(30) | Akreditasi prodi                          |
+| jenjang		     | character varying(10) | Jenjang pendidikan                        |
 
 dengan script SQL sebagai berikut:
 sql
