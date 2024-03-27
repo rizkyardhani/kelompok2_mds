@@ -105,8 +105,8 @@ Selanjutnya, entitas universitas berhubungan dengan dua atribut pada entitas lai
 
 Selain itu, entitas prodi saling berhubungan dengan jalur.
 
-<p align="left">
-  <img width="350" height="600" src="image/ERD.jpeg">
+<p align="center">
+  <img width="350" height="650" src="image/ERD.jpeg">
 </p>
 
 ## :postbox: Deskripsi Data
