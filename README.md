@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" height="400" src="image/logo StatHub.png">
+  <img width="350" height="350" src="image/logo StatHub.png">
 </p>
 
 <div align="center">
