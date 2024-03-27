@@ -74,7 +74,7 @@ Kami yakin dengan kurikulum yang komprehensif dan kualitas pengajaran yang terke
 
 Berikut merupakan tampilan awal dari Portal StatHub Database
 <p align="center">
-  <img width="900" height="500" src="image/dashboard1.png">
+  <img width="900" height="400" src="image/dashboard1.png">
 </p>
 
 ## :octocat: Demo
@@ -269,6 +269,6 @@ CREATE TABLE IF NOT EXISTS jalur (
 
 ## :ninja: Tim Pengembang
 + 💃Database Manager : [Windy Ayu Pratiwi](https://github.com/windyayupratiwi) (G1501231029)
-+ 🧜‍♂️Frontend dan Backend Developer : [Rizky Ardhani](https://github.com/rizkyardhani) (G1501231074)
++ 🧜‍♂️Frontend Developer : [Rizky Ardhani](https://github.com/rizkyardhani) (G1501231074)
 + 👩‍🍳Backend Developer : [Devi Permata Sari](https://github.com/dvprmta) (G1501231026)
 + 🏄‍♀️Technical Writer : [Tukhfatur Rizmah A.](https://github.com/tukhfaturr) (G1501231023)
